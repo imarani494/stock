@@ -1,0 +1,34 @@
+
+.stock-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stock-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: #e8f5fe;
+    border: 1px solid #d1e9fd;
+    border-radius: 6px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .stock-list li:hover {
+    background: #cce4fc;
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .stock-symbol {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .stock-price {
+    font-size: 1.2rem;
+    color: #28a745;
+  }
+  

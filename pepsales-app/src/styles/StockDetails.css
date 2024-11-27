@@ -1,0 +1,22 @@
+
+.stock-details {
+    text-align: center;
+  }
+  
+  .stock-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .stock-price {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 2rem;
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
